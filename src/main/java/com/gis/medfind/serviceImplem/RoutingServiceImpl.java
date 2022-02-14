@@ -84,7 +84,7 @@ public class RoutingServiceImpl implements RoutingService{
         // iterate over all turn instructions
         for (Instruction instruction : il) {
             System.out.println("distance " + instruction.getDistance() + " for instruction: " + instruction.getTurnDescription(tr));
-            turnInstructions += "<p>"+instruction.getTurnDescription(tr)+" "+df.format(instruction.getDistance())+"m </p>";
+            turnInstructions += "<p>"+instruction.getTurnDescription(tr)+"-distance: "+df.format(instruction.getDistance())+"m </p>";
         }
         
         LineString routeLineString = routePoints.toLineString(false);

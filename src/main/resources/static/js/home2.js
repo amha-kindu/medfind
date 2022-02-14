@@ -522,13 +522,13 @@ function showMap(element)
 		closeButton: true,
 		closeOnClick:false,
 		autoClose: false,
-  		className: 'popup-fixed'
-	  })
+  		className: 'popup-fixed',
+		  offset:[0, -30]
+	  }).setLatLng(L.latLng(user_lat, user_lon));
 	  
-
-	L.easyButton('fa-globe', function(btn, map){
-		popup.setLatLng(map.getBounds().getSouth())
-		.setContent(instructions)
+	
+	L.easyButton('<img style="width:30px;height:30px;" src="directions.png">', function(btn, map){
+		popup.setContent(instructions)
 	  	.openOn(map);
 	}).addTo(map);
 	

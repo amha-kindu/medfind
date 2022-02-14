@@ -31,7 +31,7 @@ public class Request {
 
     private String pharmacyName;
 
-    @Column(name = "pharmacy_location", columnDefinition="Geometry",nullable = true, unique = true)
+    @Column(name = "pharmacy_location", columnDefinition="Geometry",nullable = true)
     @JsonSerialize(using = GeometrySerializer.class)
     @JsonDeserialize(contentUsing = GeometryDeserializer.class)
     private Point location;
