@@ -13,11 +13,6 @@
 			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
 			crossorigin=""
 		/>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"
-		/>
-
 	</head>
 
 	<body onresize="resize()" class="md:h-screen">
@@ -40,6 +35,10 @@
 				>
 					MyWatchList
 				</div>
+				<p class="text-green-500" th:if="${addSuccess}" th:text="'Successfully added the '+${medName}+' medicine!'"></p>
+				<p class="text-green-500" th:if="${removeSuccess}" th:text="'Successfully removed the '+${medName}+' medicine!'"></p>
+				<p class="text-red-500" th:if="${medicineNotFound}" th:text="'Cannot add '+${medName}+', try again!'"></p>
+						
 				<div
 					id="watchlistMedicines"
 					class="flex flex-col justify-start items-center w-11/12 rounded-xl p-3"
@@ -62,7 +61,6 @@
 							<input
 								type="hidden"
 								name="medicineName"
-								th:field="*{medicineName}"
 								th:value="${medicineName.name}"
 							/>
 							<input type="hidden" id="xhidden" th:field="*{userlat}" />
@@ -125,17 +123,17 @@
 					class="flex flex-col justify-between items-center w-full h-96 mb-10 overflow-x-hidden mr-5"
 				>
 					<script th:inline="javascript">
-						/*<![CDATA[*/
-						var coordinates = [];
+						/*<![CDATA[*/					
+						var routables = {};
 						var user_lat = /*[[${user_lat}]]*/ "0.0";
 						var user_lon = /*[[${user_lon}]]*/ "0.0";
-						/*]]>*/
+					/*]]>*/
 					</script>
 
 
 					<div
-						th:each="pharmacy:${pharmaList}"
-						class="color-grey flex flex-col justify-between items-center w-11/12 rounded-xl my-2 bg-cyan-100"
+					th:each="pharmacy:${pharmaList}"
+					class="color-grey flex flex-col justify-between items-center w-11/12 rounded-xl my-2 bg-cyan-100"
 					>
 						<div class="ml-3 font-bold text-lg" th:text="${pharmacy.name}"></div>
 						<div class="flex justify-between items-center w-full rounded-xl">
@@ -146,28 +144,33 @@
 								<label th:for="address+(${pharmacy.Id})" class="inline font-bold">Address:&nbsp;&nbsp;</label>
 								<p th:id="address+(${pharmacy.Id})" th:text="${pharmacy.address}" class="inline font-italic"></p>
 								</div>
-								<button class="mx-auto px-5 my-3 py-1 rounded color-white primary-background block"th:name="map+(${pharmacy.Id})" th:onClick="showMap(this);">View map</button>
+								<button class="mx-auto px-5 my-3 py-1 rounded color-white primary-background block" th:id="${pharmacy.Id}" onClick="showMap(this)">View map</button>
 							</div>
 							<div class="my-map-container flex items-start">
 								<div
 									class="map hidden flex items-start overflow-hidden w-1/3 h-36 bg-yellow-400 rounded-xl"
-									th:id="map+(${pharmacy.Id})">
+									id="map">
 								
 								</div>
-								<img th:id="close-map+(${pharmacy.Id})" th:name="map+(${pharmacy.Id})" onclick="closeMap(this)"  class="map-close hidden w-8 cursor-pointer" th:src="@{/images/close.svg}" alt="close">
+								<img id="close-map" th:name="map+(${pharmacy.Id})" onclick="closeMap(this)"  class="map-close hidden w-8 cursor-pointer" th:src="@{/images/close.svg}" alt="close">
 							</div>
 							<script th:inline="javascript" type="text/javascript">
 								/*<![CDATA[*/
 
-								var name = /*[[${pharmacy.name}]]*/ "Unknown";
+								var routable = new Object();
+									routable.name = /*[[${pharmacy.name}]]*/ "Unknown";
+									routable.coordsLat = /*[[${pharmacy.location.getX()}]]*/ "0.0";
+									routable.coordsLon = /*[[${pharmacy.location.getY()}]]*/ "0.0";
+									routable.route = /*[[${routes.get(__${pharmacy.Id}__)}]]*/ "0.0";
+								
+								routables[String(/*[[${pharmacy.id}]]*/)] = routable;
 
-								var id = String(/*[[${pharmacy.id}]]*/);
-								var coordsLat = /*[[${pharmacy.location.getX()}]]*/ "0.0";
-								var coordsLon = /*[[${pharmacy.location.getY()}]]*/ "0.0";
-								coordinates.push([name, coordsLat, coordsLon, id]);
 								/*]]>*/
 							</script>
 						</div>
+					</div>
+					</div>
+			</div>
 					</div>
 				</div>
 			</div>
@@ -182,7 +185,6 @@
 			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 			crossorigin=""
 		></script>
-		<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-		<script th:src="@{/js/home.js}"></script>
+		<script th:src="@{/js/home2.js}"></script>
 	</body>
 </html>

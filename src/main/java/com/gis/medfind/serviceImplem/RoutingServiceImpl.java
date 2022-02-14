@@ -3,7 +3,9 @@ package com.gis.medfind.serviceImplem;
 
 import java.util.Locale;
 import java.util.Map;
+import java.text.DecimalFormat;
 import java.util.HashMap;
+
 
 import com.gis.medfind.service.RoutingService;
 import com.google.gson.Gson;
@@ -77,12 +79,12 @@ public class RoutingServiceImpl implements RoutingService{
         Translation tr = hopper.getTranslationMap().getWithFallBack(Locale.US);
         InstructionList il = path.getInstructions();
         
-        String turnInstructions = "";
-
+        String turnInstructions = "<p style='text-align:center; font-weight:bold; font-size:1.5rem;'>Turn Instruction</p>";
+        DecimalFormat df = new DecimalFormat("0.00");
         // iterate over all turn instructions
         for (Instruction instruction : il) {
             System.out.println("distance " + instruction.getDistance() + " for instruction: " + instruction.getTurnDescription(tr));
-            turnInstructions += instruction.getTurnDescription(tr)+" "+instruction.getDistance()+"\n";
+            turnInstructions += "<p>"+instruction.getTurnDescription(tr)+" "+df.format(instruction.getDistance())+"m </p>";
         }
         
         LineString routeLineString = routePoints.toLineString(false);
@@ -100,7 +102,7 @@ public class RoutingServiceImpl implements RoutingService{
             geom.put("type", "LineString");
             geom.put("coordinates", coords);
             geom.put("totalDistance", totalDistance);
-            geom.put("turn instructions", turnInstructions);
+            geom.put("turnInstruction", turnInstructions);
 
         String routeGeoJson = gson.toJson(geom);
         

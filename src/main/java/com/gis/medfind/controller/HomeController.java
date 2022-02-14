@@ -94,7 +94,6 @@ public class HomeController {
             }
         );
     
-        System.out.println(routes.get(pharm.get(0).getId()));
         model.addAttribute("routes", routes);
         model.addAttribute("user_lat", form.getUserlat());
         model.addAttribute("user_lon", form.getUserlong());
