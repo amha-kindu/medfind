@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	lang="en"
+>
+	<head>
+		<!-- links and meta datas -->
+		<div th:replace="_fragments::heads"></div>
+	</head>
+	<body class="h-screen">
+		<!-- navigation -->
+		<div th:replace="_fragments::navigation"></div>
+		<!-- content -->
+
+		<div
+			class="w-11/12 md:w-5/6 lg:w-4/6 flex m-auto mt-10 relative p-5 shadow h-5/6 min-h-screen"
+		>
+			<div class="flex flex-col w-1/4 h-full bg-">
+				<div class="h-1/2 border-2">
+					<form th:action="@{/admin/users}">
+						<input
+							type="submit"
+							value="Users"
+							class="text-2xl ml-2 mt-2 px-3 border-2 rounded"
+						/>
+					</form>
+				</div>
+				<div class="h-1/2 border-2">
+					<form th:action="@{/admin/pharmacies}">
+						<input
+							type="submit"
+							value="Pharmacies"
+							class="text-2xl ml-2 mt-2 px-3 border-2 rounded"
+						/>
+					</form>
+				</div>
+			</div>
+			<div class="bg-cyan-200 w-auto relative overflow-scroll">
+				<!-- <div> -->
+				<div th:if="${users}">
+					<div th:each="user:${users}" class="mb-3 border-b-2 border-black">
+						<div>
+							<span
+								th:text="${user.firstName}"
+								class="px-2 mx-5 border-x-2"
+							></span>
+							<span
+								th:text="${user.lastName}"
+								class="px-2 mx-5 border-x-2"
+							></span>
+							<span th:text="${user.email}" class="px-2 mx-5 border-x-2"></span>
+							<button class="w-fit px-2 bg-red-500 rounded">Delete</button>
+						</div>
+					</div>
+					<button
+						class="z-50 px-5 rounded-full primary-background sticky bottom-0 right-4 border-2"
+					>
+						Add
+					</button>
+				</div>
+				<!-- </div> -->
+
+				<!-- <div> -->
+				<div th:if="${pharmacies}" class="w-full">
+					<div th:each="pharmacy:${pharmacies}" class="mb-3 border-b-2 border-black">
+						<div>
+							<div th:text="${pharmacy.name}" class="px-2 border-x-2"></div>
+							<!-- <span th:text="${pharmacy.owner}" class="px-2 border-x-2"></span> -->
+							<div th:text="${pharmacy.address}" class="px-2 border-x-2"></div>
+							<!-- <span th:text="${ph}" class="px-2border-x-2"></span> -->
+							<button class="w-fit px-2 bg-green-500 rounded">
+								Update info
+							</button>
+							<button class="w-fit px-2 bg-red-500 rounded">Delete</button>
+						</div>
+					</div>
+
+					<button
+						class="z-50 px-5 rounded-full primary-background sticky bottom-0 right-4 border-2"
+					>
+						Add
+					</button>
+				</div>
+				<!-- </div> -->
+			</div>
+		</div>
+		<!-- footer -->
+		<div th:replace="_fragments :: footer"></div>
+	</body>
+</html>

@@ -1,0 +1,402 @@
+[2022.01.25 07:29:41] Launched version: 3004008, install beta: [TRUE], alpha: 0, debug mode: [FALSE]
+[2022.01.25 07:29:41] Executable dir: C:/Users/hp/Desktop/, name: Telegram.exe
+[2022.01.25 07:29:41] Initial working dir: C:/Users/hp/Desktop/
+[2022.01.25 07:29:41] Working dir: C:/Users/hp/Desktop/
+[2022.01.25 07:29:41] Command line: C:\Users\hp\Desktop\Telegram.exe
+[2022.01.25 07:29:40] Executable path before check: C:/Users/hp/Desktop/Telegram.exe
+[2022.01.25 07:29:41] Logs started
+[2022.01.25 07:29:41] Connecting local socket to Global\88a3cb6a643ea63c7d130d35ed038d3d-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2022.01.25 07:29:41] This is the only instance of Telegram, starting server and app...
+[2022.01.25 07:29:41] Moved logging from 'C:/Users/hp/Desktop/log_start3.txt' to 'C:/Users/hp/Desktop/log.txt'!
+[2022.01.25 07:29:41] Old start log 'log_start0.txt' found, deleted: [TRUE]
+[2022.01.25 07:29:41] Old start log 'log_start1.txt' found, deleted: [TRUE]
+[2022.01.25 07:29:41] Old start log 'log_start2.txt' found, deleted: [TRUE]
+[2022.01.25 07:29:41] Old start log 'log_start4.txt' found, deleted: [TRUE]
+[2022.01.25 07:29:41] Old start log 'log_start6.txt' found, deleted: [TRUE]
+[2022.01.25 07:29:41] Opened 'C:/Users/hp/Desktop/tdata/working' for reading, the previous Telegram Desktop launch was not finished properly :( Crash log size: 0
+[2022.01.25 07:29:41] Primary screen DPI: 96
+[2022.01.25 07:29:41] Font: from ':/gui/fonts/DAOpenSansRegular.ttf' loaded 'DAOpenSansRegular'
+[2022.01.25 07:29:41] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2022.01.25 07:29:41] Font: from ':/gui/fonts/DAOpenSansRegularItalic.ttf' loaded 'DAOpenSansRegularItalic'
+[2022.01.25 07:29:41] Font: from ':/gui/fonts/DAVazirRegular.ttf' loaded 'DAVazirRegular'
+[2022.01.25 07:29:42] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2022.01.25 07:29:42] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2022.01.25 07:29:42] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2022.01.25 07:29:42] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2022.01.25 07:29:42] Font: from ':/gui/fonts/DAOpenSansSemiboldAsBold.ttf' loaded 'DAOpenSansSemibold'
+[2022.01.25 07:29:50] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2022.01.25 07:29:50] Font: from ':/gui/fonts/DAOpenSansSemiboldItalicAsBold.ttf' loaded 'DAOpenSansSemiboldItalic'
+[2022.01.25 07:29:50] Font: from ':/gui/fonts/DAVazirMediumAsBold.ttf' loaded 'DAVazirMedium'
+[2022.01.25 07:29:51] Using DirectX compiler 'C:\Users\hp\Desktop\modules\x86\d3d\d3dcompiler_47.dll'.
+[2022.01.25 07:29:51] App Info: reading settings...
+[2022.01.25 07:29:51] App Info: reading encrypted settings...
+[2022.01.25 07:29:51] Lang Info: Loaded cached, keys: 3570
+[2022.01.25 07:29:53] OpenAL Logging Level: (not set)
+[2022.01.25 07:29:53] Audio Playback Devices: OpenAL Soft on Speakers (Realtek High Definition Audio);OpenAL Soft on Speakers (EPSON Projector UD Audio Device)
+[2022.01.25 07:29:53] Audio Playback Default Device: OpenAL Soft on Speakers (Realtek High Definition Audio)
+[2022.01.25 07:29:53] Audio Capture Devices: OpenAL Soft on Microphone (Realtek High Definition Audio)
+[2022.01.25 07:29:53] Audio Capture Default Device: OpenAL Soft on Microphone (Realtek High Definition Audio)
+[2022.01.25 07:29:56] App Info: reading accounts info...
+[2022.01.25 07:29:56] App Info: reading encrypted info...
+[2022.01.25 07:29:56] App Info: reading map...
+[2022.01.25 07:29:56] App Info: reading encrypted map...
+[2022.01.25 07:29:56] App Info: reading encrypted user settings...
+[2022.01.25 07:29:56] App Info: encrypted user settings read.
+[2022.01.25 07:29:56] App Info: reading encrypted mtp data...
+[2022.01.25 07:29:57] MTP Info: read keys, current: 5, to destroy: 0
+[2022.01.25 07:29:57] Map read time: 414
+[2022.01.25 07:29:57] App Info: reading encrypted mtp config...
+[2022.01.25 07:29:59] Export Info: Destroy top bar by controller removal.
+[2022.01.25 07:29:59] OpenGL: Using custom 'gpu_driver_bug_list.json'.
+[2022.01.25 07:30:01] OpenGL Profile: OpenGLES.
+[2022.01.25 07:30:01] OpenGL Renderer: ANGLE (Intel, Intel(R) HD Graphics 620 Direct3D11 vs_5_0 ps_5_0, D3D11-25.20.100.6518)
+[2022.01.25 07:30:01] OpenGL Vendor: Google Inc. (Intel)
+[2022.01.25 07:30:01] OpenGL Version: OpenGL ES 3.0.0 (ANGLE 2.1.7 git hash: 0bb011f9e403)
+[2022.01.25 07:30:01] OpenGL Extensions: GL_ANGLE_get_serialized_context_string, GL_EXT_color_buffer_half_float, GL_EXT_disjoint_timer_query, GL_CHROMIUM_copy_texture, GL_EXT_read_format_bgra, GL_ANGLE_provoking_vertex, GL_EXT_instanced_arrays, GL_OES_rgb8_rgba8, GL_EXT_discard_framebuffer, GL_EXT_sRGB, GL_WEBGL_video_texture, GL_ANGLE_base_vertex_base_instance, GL_ANGLE_robust_client_memory, GL_CHROMIUM_bind_generates_resource, GL_OES_standard_derivatives, GL_OES_compressed_ETC2_punchthroughA_RGBA8_texture, GL_EXT_draw_elements_base_vertex, GL_EXT_texture_rg, GL_KHR_parallel_shader_compile, GL_OES_compressed_ETC2_RGBA8_texture, GL_OVR_multiview2, GL_ANGLE_lossy_etc_decode, GL_EXT_texture_compression_bptc, GL_OES_depth24, GL_ANGLE_framebuffer_blit, GL_ANGLE_framebuffer_multisample, GL_OES_compressed_ETC2_sRGB8_texture, GL_ANGLE_program_cache_control, GL_EXT_blend_func_extended, GL_OES_compressed_ETC2_RGB8_texture, GL_OES_texture_stencil8, GL_EXT_frag_depth, GL_CHROMIUM_sync_query, GL_EXT_float_blend, , GL_ANGLE_texture_multisample, GL_OES_texture_half_float, GL_ANGLE_texture_compression_dxt5, GL_EXT_EGL_image_external_wrap_modes, GL_OES_vertex_array_object, GL_ANGLE_instanced_arrays, GL_OES_EGL_image, GL_OES_fbo_render_mipmap, GL_EXT_blend_minmax, GL_OES_texture_npot, GL_OVR_multiview, GL_EXT_texture_compression_s3tc_srgb, GL_ANGLE_texture_compression_dxt3, GL_EXT_texture_compression_rgtc, GL_OES_EGL_image_external, GL_ANGLE_multiview_multisample, GL_EXT_texture_format_BGRA8888, GL_OES_compressed_EAC_RG11_signed_texture, GL_OES_draw_elements_base_vertex, GL_EXT_texture_filter_anisotropic, GL_ANGLE_explicit_context, GL_EXT_debug_label, GL_EXT_multisampled_render_to_texture, GL_CHROMIUM_copy_compressed_texture, GL_NV_pixel_buffer_object, GL_OES_draw_buffers_indexed, GL_ANGLE_pack_reverse_row_order, GL_OES_EGL_image_external_essl3, GL_OES_texture_half_float_linear, GL_EXT_occlusion_query_boolean, GL_EXT_debug_marker, GL_ANGLE_depth_texture, GL_OES_compressed_ETC2_punchthroughA_sRGB8_alpha_texture, GL_ANGLE_texture_usage, GL_NV_fence, GL_OES_packed_depth_stencil, GL_NV_EGL_stream_consumer_external, GL_EXT_shader_texture_lod, GL_OES_compressed_EAC_RG11_unsigned_texture, GL_CHROMIUM_bind_uniform_location, GL_EXT_draw_buffers_indexed, GL_KHR_debug, GL_OES_compressed_EAC_R11_unsigned_texture, GL_EXT_robustness, GL_ANGLE_get_tex_level_parameter, GL_OES_texture_float, GL_ANGLE_explicit_context_gles1, GL_EXT_color_buffer_float, GL_EXT_texture_norm16, GL_OES_texture_float_linear, GL_EXT_texture_compression_dxt1, GL_OES_element_index_uint, GL_ANGLE_copy_texture_3d, GL_EXT_draw_buffers, GL_OES_depth32, GL_EXT_map_buffer_range, GL_OES_get_program_binary, GL_ANGLE_memory_size, GL_ANGLE_translated_shader_source, GL_ANGLE_multi_draw, GL_EXT_unpack_subimage, GL_EXT_texture_storage, GL_OES_compressed_ETC2_sRGB8_alpha8_texture, GL_CHROMIUM_lose_context, GL_ANGLE_client_arrays, GL_OES_surfaceless_context, GL_NV_pack_subimage, GL_OES_compressed_EAC_R11_signed_texture, GL_OES_texture_border_clamp, GL_ANGLE_request_extension, GL_OES_mapbuffer
+[2022.01.25 07:30:01] EGL Extensions: EGL_EXT_create_context_robustness, EGL_ANGLE_d3d_share_handle_client_buffer, EGL_ANGLE_d3d_texture_client_buffer, EGL_ANGLE_surface_d3d_texture_2d_share_handle, EGL_ANGLE_query_surface_pointer, EGL_ANGLE_window_fixed_size, EGL_ANGLE_keyed_mutex, EGL_ANGLE_surface_orientation, EGL_ANGLE_direct_composition, EGL_ANGLE_windows_ui_composition, EGL_NV_post_sub_buffer, EGL_KHR_create_context, EGL_KHR_image, EGL_KHR_image_base, EGL_KHR_gl_texture_2D_image, EGL_KHR_gl_texture_cubemap_image, EGL_KHR_gl_renderbuffer_image, EGL_KHR_get_all_proc_addresses, EGL_KHR_stream, EGL_KHR_stream_consumer_gltexture, EGL_NV_stream_consumer_gltexture_yuv, EGL_ANGLE_flexible_surface_compatibility, EGL_ANGLE_stream_producer_d3d_texture, EGL_ANGLE_create_context_webgl_compatibility, EGL_CHROMIUM_create_context_bind_generates_resource, EGL_CHROMIUM_sync_control, EGL_EXT_pixel_format_float, EGL_KHR_surfaceless_context, EGL_ANGLE_display_texture_share_group, EGL_ANGLE_display_semaphore_share_group, EGL_ANGLE_create_context_client_arrays, EGL_ANGLE_program_cache_control, EGL_ANGLE_robust_resource_initialization, EGL_ANGLE_create_context_extensions_enabled, EGL_ANDROID_blob_cache, EGL_ANDROID_recordable, EGL_ANGLE_image_d3d11_texture, EGL_ANGLE_create_context_backwards_compatible, EGL_KHR_create_context_no_error, EGL_KHR_reusable_sync, 
+[2022.01.25 07:30:01] OpenGL: QOpenGLContext created, version: 3.3.
+[2022.01.25 07:30:01] OpenGL: [TRUE] (OverlayWidget)
+[2022.01.25 07:30:08] API Warning: not loaded minimal channel applied.
+[2022.01.25 07:31:10] RPC Error: request 115 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 07:32:12] RPC Error: request 130 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 07:32:16] RPC Error: request 145 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 07:32:31] RPC Error: request 168 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 07:33:39] API Warning: not loaded minimal channel applied.
+[2022.01.25 07:33:39] Message Info: bad message notification received (error_code 33) for msg_id = 7056997284623916040, seq_no = 44
+[2022.01.25 07:33:39] Message Info: bad message notification received, msgId 7056997284623916040, error_code 33
+[2022.01.25 07:36:27] API Warning: not loaded minimal channel applied.
+[2022.01.25 07:53:46] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 07:53:46] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 07:53:46] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 07:53:46] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 08:07:38] RPC Error: request 328 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 08:07:40] API Warning: not loaded minimal channel applied.
+[2022.01.25 08:08:10] RPC Error: request 357 got fail with code 400, error USER_NOT_PARTICIPANT
+[2022.01.25 08:08:39] RPC Error: request 392 got fail with code 400, error USER_NOT_PARTICIPANT
+[2022.01.25 08:08:42] Message Info: bad message notification received (error_code 33) for msg_id = 7057006320028529488, seq_no = 806
+[2022.01.25 08:08:42] Message Info: bad message notification received, msgId 7057006320028529488, error_code 33
+[2022.01.25 08:09:07] RPC Error: request 449 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 08:27:23] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 8) scheduling detach from audio device.
+[2022.01.25 08:27:23] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 08:27:23] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 08:27:23] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 08:27:40] RPC Error: request 537 got fail with code 400, error PEER_ID_INVALID
+[2022.01.25 08:27:43] RPC Error: request 554 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 08:27:54] RPC Error: request 575 got fail with code 400, error PEER_ID_INVALID
+[2022.01.25 08:27:55] Message Info: bad message notification received (error_code 33) for msg_id = 7057011271900775076, seq_no = 284
+[2022.01.25 08:27:55] Message Info: bad message notification received, msgId 7057011271900775076, error_code 33
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:29:50] App Error: Can't read history till unknown local message.
+[2022.01.25 08:31:21] RPC Error: request 753 got fail with code 400, error PEER_ID_INVALID
+[2022.01.25 08:40:57] API Warning: not loaded minimal channel applied.
+[2022.01.25 09:55:34] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:55:37] Audio Info: Closing audio playback device.
+[2022.01.25 09:56:18] Could not send ping for some seconds, restarting...
+[2022.01.25 09:56:18] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:56:21] Audio Info: Closing audio playback device.
+[2022.01.25 09:56:28] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:56:31] Audio Info: Closing audio playback device.
+[2022.01.25 09:56:44] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:56:46] Audio Info: Closing audio playback device.
+[2022.01.25 09:57:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:57:53] Audio Info: Closing audio playback device.
+[2022.01.25 09:58:24] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:58:27] Audio Info: Closing audio playback device.
+[2022.01.25 09:59:19] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 09:59:22] Audio Info: Closing audio playback device.
+[2022.01.25 10:00:37] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:00:40] Audio Info: Closing audio playback device.
+[2022.01.25 10:01:14] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:01:16] Audio Info: Closing audio playback device.
+[2022.01.25 10:02:44] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:02:46] Audio Info: Closing audio playback device.
+[2022.01.25 10:07:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:07:10] Audio Info: Closing audio playback device.
+[2022.01.25 10:11:12] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 10:11:12] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 10:11:12] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 10:11:12] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 10:13:05] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2022.01.25 10:13:05] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2022.01.25 10:13:05] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2022.01.25 10:33:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:33:12] Audio Info: Closing audio playback device.
+[2022.01.25 10:42:04] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:42:06] Audio Info: Closing audio playback device.
+[2022.01.25 10:45:01] API Warning: not loaded minimal channel applied.
+[2022.01.25 10:58:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:58:51] Audio Info: Closing audio playback device.
+[2022.01.25 10:59:16] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 10:59:18] Audio Info: Closing audio playback device.
+[2022.01.25 11:23:43] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:23:46] Audio Info: Closing audio playback device.
+[2022.01.25 11:31:40] API Warning: not loaded minimal channel applied.
+[2022.01.25 11:32:41] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:32:43] Audio Info: Closing audio playback device.
+[2022.01.25 11:37:13] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:37:16] Audio Info: Closing audio playback device.
+[2022.01.25 11:37:26] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:37:28] Audio Info: Closing audio playback device.
+[2022.01.25 11:40:29] RPC Error: request 1093 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 11:42:25] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:42:27] Audio Info: Closing audio playback device.
+[2022.01.25 11:55:02] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:55:11] Audio Info: Closing audio playback device.
+[2022.01.25 11:55:12] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:55:14] Audio Info: Closing audio playback device.
+[2022.01.25 11:55:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:55:51] Audio Info: Closing audio playback device.
+[2022.01.25 11:55:59] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:56:01] Audio Info: Closing audio playback device.
+[2022.01.25 11:56:22] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:56:24] Audio Info: Closing audio playback device.
+[2022.01.25 11:56:45] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:56:47] Audio Info: Closing audio playback device.
+[2022.01.25 11:56:55] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:56:57] Audio Info: Closing audio playback device.
+[2022.01.25 11:57:05] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:57:07] Audio Info: Closing audio playback device.
+[2022.01.25 11:57:29] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 11:57:31] Audio Info: Closing audio playback device.
+[2022.01.25 11:59:54] RPC Error: request 1172 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] App Error: Can't read history till unknown local message.
+[2022.01.25 12:00:03] RPC Error: request 1177 got fail with code 400, error PEER_ID_INVALID
+[2022.01.25 12:00:44] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:44] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:44] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:44] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:44] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:44] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:45] RPC Error: request 1206 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 12:00:46] RPC Error: request 1208 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 12:00:46] RPC Error: request 1205 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 12:00:47] RPC Error: request 1214 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 12:00:47] RPC Error: request 1207 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 12:00:47] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:47] Message Info: bad message notification received (error_code 33) for msg_id = 7057066119267439956, seq_no = 1340
+[2022.01.25 12:00:47] Message Info: bad message notification received, msgId 7057066119267439956, error_code 33
+[2022.01.25 12:00:47] RPC Error: request 1204 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 12:00:48] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:48] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:48] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:48] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:49] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:50] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:50] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:51] Streaming Error: Error in avformat_open_input (code: -1, text: Operation not permitted).
+[2022.01.25 12:00:58] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 12:01:01] Audio Info: Closing audio playback device.
+[2022.01.25 12:01:17] RPC Error: request 1250 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:01:56] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 12:01:58] RPC Error: request 1292 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:01:58] Audio Info: Closing audio playback device.
+[2022.01.25 12:04:53] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 8) scheduling detach from audio device.
+[2022.01.25 12:04:53] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 12:04:53] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 12:04:53] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 12:47:04] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 12:47:04] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 12:47:04] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 12:47:04] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2022.01.25 12:47:05] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 12:47:17] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 12:47:22] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2022.01.25 12:47:23] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2022.01.25 12:47:23] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2022.01.25 12:47:24] Audio Info: Closing audio playback device.
+[2022.01.25 12:47:25] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 12:47:26] Audio Info: Closing audio playback device.
+[2022.01.25 12:50:28] RPC Error: request 1347 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:52:11] RPC Error: request 1389 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:52:12] API Warning: not loaded minimal channel applied.
+[2022.01.25 12:52:12] API Warning: not loaded minimal channel applied.
+[2022.01.25 12:52:12] API Warning: not loaded minimal channel applied.
+[2022.01.25 12:52:31] RPC Error: request 1401 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:52:39] RPC Error: request 1415 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:52:42] RPC Error: request 1436 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 12:55:00] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 12:55:02] Audio Info: Closing audio playback device.
+[2022.01.25 13:00:24] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 13:00:26] Audio Info: Closing audio playback device.
+[2022.01.25 13:14:14] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 13:14:16] Audio Info: Closing audio playback device.
+[2022.01.25 13:17:44] API Warning: not loaded minimal channel applied.
+[2022.01.25 13:30:14] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 13:30:16] Audio Info: Closing audio playback device.
+[2022.01.25 13:41:09] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 8) scheduling detach from audio device.
+[2022.01.25 13:41:09] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 13:41:09] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 13:41:09] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 13:51:41] HTTP Error: connection refused - Connection refused
+[2022.01.25 13:51:52] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 13:51:54] Audio Info: Closing audio playback device.
+[2022.01.25 13:54:54] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 13:54:56] Audio Info: Closing audio playback device.
+[2022.01.25 13:55:21] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 13:55:23] Audio Info: Closing audio playback device.
+[2022.01.25 13:58:08] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 13:58:08] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 13:58:08] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2022.01.25 13:58:08] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 13:58:08] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 14:03:47] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 8) scheduling detach from audio device.
+[2022.01.25 14:03:47] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 14:03:47] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 14:03:47] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 14:18:51] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 14:18:54] Audio Info: Closing audio playback device.
+[2022.01.25 14:29:36] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 14:29:38] Audio Info: Closing audio playback device.
+[2022.01.25 14:32:37] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 14:32:40] Audio Info: Closing audio playback device.
+[2022.01.25 14:32:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 14:32:51] Audio Info: Closing audio playback device.
+[2022.01.25 15:09:57] API Warning: not loaded minimal channel applied.
+[2022.01.25 15:58:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 15:58:10] Audio Info: Closing audio playback device.
+[2022.01.25 15:59:02] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 15:59:04] Audio Info: Closing audio playback device.
+[2022.01.25 16:01:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:01:10] Audio Info: Closing audio playback device.
+[2022.01.25 16:03:10] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:03:12] Audio Info: Closing audio playback device.
+[2022.01.25 16:10:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:10:10] Audio Info: Closing audio playback device.
+[2022.01.25 16:12:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:12:51] Audio Info: Closing audio playback device.
+[2022.01.25 16:13:36] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:13:38] Audio Info: Closing audio playback device.
+[2022.01.25 16:21:06] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:21:08] Audio Info: Closing audio playback device.
+[2022.01.25 16:21:18] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:21:20] Audio Info: Closing audio playback device.
+[2022.01.25 16:21:51] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:21:53] Audio Info: Closing audio playback device.
+[2022.01.25 16:25:30] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:25:32] Audio Info: Closing audio playback device.
+[2022.01.25 16:26:15] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:26:17] Audio Info: Closing audio playback device.
+[2022.01.25 16:27:43] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:27:45] Audio Info: Closing audio playback device.
+[2022.01.25 16:28:25] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 16:28:25] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 16:28:25] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 16:28:25] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 16:28:43] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:28:46] Audio Info: Closing audio playback device.
+[2022.01.25 16:28:48] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:28:50] Audio Info: Closing audio playback device.
+[2022.01.25 16:41:09] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:41:11] Audio Info: Closing audio playback device.
+[2022.01.25 16:43:03] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 16:43:05] Audio Info: Closing audio playback device.
+[2022.01.25 17:04:46] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 17:04:48] Audio Info: Closing audio playback device.
+[2022.01.25 17:10:44] API Warning: not loaded minimal channel applied.
+[2022.01.25 17:15:14] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 17:15:16] Audio Info: Closing audio playback device.
+[2022.01.25 17:19:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 17:19:10] Audio Info: Closing audio playback device.
+[2022.01.25 17:20:03] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 17:20:05] Audio Info: Closing audio playback device.
+[2022.01.25 17:24:47] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 17:24:49] Audio Info: Closing audio playback device.
+[2022.01.25 17:34:12] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 17:34:14] Audio Info: Closing audio playback device.
+[2022.01.25 17:43:00] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2022.01.25 17:43:00] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2022.01.25 17:43:00] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 1") scheduling detach from audio device.
+[2022.01.25 18:10:46] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 8) scheduling detach from audio device.
+[2022.01.25 18:10:46] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 18:10:46] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 18:10:46] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 18:10:52] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 18:10:56] Audio Info: Closing audio playback device.
+[2022.01.25 18:12:19] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 18:12:19] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 18:12:19] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 18:12:19] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 18:12:19] Audio Info: OnPropertyValueChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", "{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04} 0") scheduling detach from audio device.
+[2022.01.25 18:13:03] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 18:13:05] Audio Info: Closing audio playback device.
+[2022.01.25 18:21:15] API Warning: not loaded minimal channel applied.
+[2022.01.25 18:21:17] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 18:21:20] Audio Info: Closing audio playback device.
+[2022.01.25 18:27:55] RPC Error: request 1642 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 18:27:55] RPC Error: request 1649 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 18:28:47] API Warning: not loaded minimal channel applied.
+[2022.01.25 18:35:52] RPC Error: request 1677 got fail with code 400, error FILE_ID_INVALID
+[2022.01.25 18:35:57] RPC Error: request 1690 got fail with code 400, error USER_NOT_PARTICIPANT
+[2022.01.25 18:35:57] RPC Error: request 1695 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 18:36:06] RPC Error: request 1710 got fail with code 400, error USER_NOT_PARTICIPANT
+[2022.01.25 18:36:07] API Error: Got empty admins list from server.
+[2022.01.25 18:36:08] RPC Error: request 1725 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 18:41:11] API Warning: not loaded minimal channel applied.
+[2022.01.25 18:46:15] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 18:46:17] Audio Info: Closing audio playback device.
+[2022.01.25 18:46:32] RPC Error: request 1759 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 18:47:01] RPC Error: request 1778 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 18:47:46] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 8) scheduling detach from audio device.
+[2022.01.25 18:47:46] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 18:47:46] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 18:47:46] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{2d6993d3-eb4e-4bcb-91f2-c5186ad3d8c1}"
+[2022.01.25 20:18:00] Config Error: Failed to parse dns response JSON, error: illegal value
+[2022.01.25 20:18:00] Config Error: Bad data size 0 required 344
+[2022.01.25 20:18:03] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:18:08] Audio Info: Closing audio playback device.
+[2022.01.25 20:18:24] HTTP Error: network error 7 - Temporary network failure.
+[2022.01.25 20:18:45] Audio Info: OnDeviceStateChanged("{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}", 1) scheduling detach from audio device.
+[2022.01.25 20:18:45] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 0, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 20:18:45] Audio Info: skipping OnDefaultDeviceChanged() flow 1, role 1, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 20:18:45] Audio Info: OnDefaultDeviceChanged() scheduling detach from audio device, flow 1, role 2, new_default_device_id: "{0.0.1.00000000}.{eb82e93e-e172-4470-b5e0-32659fd9e7dd}"
+[2022.01.25 20:21:44] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:21:46] Audio Info: Closing audio playback device.
+[2022.01.25 20:22:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:22:10] Audio Info: Closing audio playback device.
+[2022.01.25 20:22:49] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:22:51] Audio Info: Closing audio playback device.
+[2022.01.25 20:25:12] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:25:15] Audio Info: Closing audio playback device.
+[2022.01.25 20:26:14] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:26:16] Audio Info: Closing audio playback device.
+[2022.01.25 20:26:26] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:26:28] Audio Info: Closing audio playback device.
+[2022.01.25 20:26:44] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:26:46] Audio Info: Closing audio playback device.
+[2022.01.25 20:27:15] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:27:17] Audio Info: Closing audio playback device.
+[2022.01.25 20:27:48] API Warning: not loaded minimal channel applied.
+[2022.01.25 20:36:57] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:36:59] Audio Info: Closing audio playback device.
+[2022.01.25 20:38:29] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:38:31] Audio Info: Closing audio playback device.
+[2022.01.25 20:47:51] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:47:53] Audio Info: Closing audio playback device.
+[2022.01.25 20:48:04] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:48:06] Audio Info: Closing audio playback device.
+[2022.01.25 20:48:11] API Warning: not loaded minimal channel applied.
+[2022.01.25 20:57:36] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 20:57:38] Audio Info: Closing audio playback device.
+[2022.01.25 21:00:08] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 21:00:11] Audio Info: Closing audio playback device.
+[2022.01.25 21:40:27] RPC Error: request 2388 got fail with code 400, error PEER_ID_INVALID
+[2022.01.25 21:40:34] RPC Error: request 2406 got fail with code 400, error CHAT_ADMIN_REQUIRED
+[2022.01.25 21:41:13] RPC Error: request 2418 got fail with code 400, error FILE_REFERENCE_EXPIRED
+[2022.01.25 21:41:29] Audio Info: recreating audio device and reattaching the tracks
+[2022.01.25 21:41:31] Audio Info: Closing audio playback device.
+[2022.01.25 21:42:34] RPC Error: request 2468 got fail with code 400, error CHAT_ADMIN_REQUIRED
