@@ -8,7 +8,7 @@ public interface RequestHandlingService {
 
     public Request newRequest(Request rq);
 
-    public void acceptRequest(Long requestId);
+    public boolean acceptRequest(Long requestId);
 
     public void rejectRequest(Long rq);
 

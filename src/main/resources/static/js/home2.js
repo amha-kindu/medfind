@@ -24,7 +24,7 @@ function profileUpdate() {
 	let formP = document.getElementById("tab1");
 
 	console.log(formP.getElementById("firstName").value);
-	if (formP.value.newPassword === fromp.value.confirm) {
+	if (formP.value.newPassword === formP.value.confirm) {
 		console.log(true);
 		// form.submit();
 	}
@@ -404,6 +404,10 @@ var form = document.getElementById("form123");
 
 // document.getElementById("searchByRegionButton").value;
 function sendForm(region) {
+	var form = document.getElementById("form123");
+	if (document.getElementById("medicineName").value == "") {
+		return;
+	}
 	loading();
 	document.getElementById("regionhidden").value = region;
 	form.method = "post";
@@ -450,11 +454,14 @@ var geolocation = (function () {
 })();
 
 var locationButton = document.getElementById("byLocation");
+console.log(locationButton);
 if (locationButton !== null) {
+	console.log("here i am");
 	locationButton.addEventListener("click", searchByLocation);
 }
 
 function searchByLocation() {
+	var form = document.getElementById("form123");
 	form.action = "/location";
 	geolocation.location(() => form.submit());
 }
@@ -485,6 +492,11 @@ function showMap(element) {
 		"display: block; z-index:100000000000000000000000000000000000000000 !important;";
 
 	var pharmacyId = document.getElementById(element.id).id;
+	if ((user_lon == "0.0") & (user_lat == "0.0")) {
+		mapByRegion(element);
+		return;
+	}
+
 	console.log(user_lon);
 	console.log(user_lat);
 	var routable = routables[pharmacyId + ""];
@@ -492,6 +504,22 @@ function showMap(element) {
 	var pharmacy_name = routable.name;
 	var lat = routable.coordsLat;
 	var lon = routable.coordsLon;
+
+	if ((user_lon == null) & (user_lat == null)) {
+		map = L.map("map").setView([parseFloat(lon), parseFloat(lat)], 25);
+		L.marker([parseFloat(lat), parseFloat(lon)])
+			.addTo(map)
+			.bindPopup(pharmacy_name)
+			.openPopup()
+			.addTo(map);
+
+		L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+			attribution:
+				'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+		}).addTo(map);
+		return;
+	}
+
 	var route = JSON.parse(routable.route);
 	console.log(route);
 	if (map != undefined) {
@@ -521,26 +549,16 @@ function showMap(element) {
 		closeButton: true,
 		closeOnClick: false,
 		autoClose: false,
-<<<<<<< HEAD
 		className: "popup-fixed",
-	});
+		offset: [0, -30],
+	}).setLatLng(L.latLng(user_lat, user_lon));
 
-	L.easyButton("fa-globe", function (btn, map) {
-		popup
-			.setLatLng(map.getBounds().getSouth())
-			.setContent(instructions)
-			.openOn(map);
-=======
-  		className: 'popup-fixed',
-		  offset:[0, -30]
-	  }).setLatLng(L.latLng(user_lat, user_lon));
-	  
-	
-	L.easyButton('<img style="width:30px;height:30px;" src="directions.png">', function(btn, map){
-		popup.setContent(instructions)
-	  	.openOn(map);
->>>>>>> 9036883ae2aa43f48c830bcb1906816c96e35374
-	}).addTo(map);
+	L.easyButton(
+		'<img style="width:30px;height:30px;" src="directions.png">',
+		function (btn, map) {
+			popup.setContent(instructions).openOn(map);
+		}
+	).addTo(map);
 }
 function closeMap(element) {
 	document.getElementById("map").style = "display: none;";

@@ -102,7 +102,7 @@ public class RequestHandlingServiceImplTest {
             newRequest = requestHandlingService.newRequest(newRequest);
 
             int initialReqCount = requestHandlingService.getAllRequests().size();
-    
+            System.out.println(newRequest.getId());
             requestHandlingService.rejectRequest(newRequest.getId());
     
             List<Request> allRequests = requestHandlingService.getAllRequests();

@@ -65,12 +65,16 @@ public class HomeController {
         String medicineName = form.getMedicineName();
         List<Pharmacy> pharm = searchReg.findPharmaciesWithInRegion(regionName,
                 medicineName);
-        List<String> regionNames = regrepo.getAllRegionNames() ;
-        
+        List<String> regionNames = regrepo.getAllRegionNames();
         model.addAttribute("regionNames", regionNames);
-        model.addAttribute("pharmaList", pharm);
         
-        return "homeResult";
+        if (pharm.isEmpty()) {
+            model.addAttribute("medicineNotFound",true);
+            return "homeResult2";
+        }
+               
+        model.addAttribute("pharmaList", pharm);
+        return "homeResult2";
     }
 
     @PostMapping("/location")
@@ -80,7 +84,13 @@ public class HomeController {
 
         List<Pharmacy> pharm = searchloc.findPharmaciesByUserLocation(form.getMedicineName(), userLat,
                 userLon);
-        List<String> regionNames = regrepo.getAllRegionNames() ;
+        List<String> regionNames = regrepo.getAllRegionNames();
+        model.addAttribute("regionNames", regionNames);
+        
+        if (pharm.isEmpty()) {
+            model.addAttribute("medicineNotFound",true);
+            return "homeResult2";
+        }
         
         Map<Integer, String> routes = new HashMap<>();
         pharm.forEach(
@@ -98,7 +108,7 @@ public class HomeController {
         model.addAttribute("user_lat", form.getUserlat());
         model.addAttribute("user_lon", form.getUserlong());
         
-        model.addAttribute("regionNames", regionNames);
+      
         model.addAttribute("pharmaList", pharm);
         return "homeResult2";
     }

@@ -37,19 +37,24 @@ public class RequestHandlingServiceImpl implements RequestHandlingService {
     @Autowired
     RegionRepository regionRepo;
 
+    @Autowired
+    FileStorageServiceImpl fileService;
+
     @Override
     public Request newRequest(Request rq){
         return requestRepo.save(rq);
     }
     
     @Override
-    public void acceptRequest(Long requestId){
+    public boolean acceptRequest(Long requestId){
         Request rq = requestRepo.findById(requestId).orElseThrow();
         Pharmacy newPharm = new Pharmacy();
             newPharm.setLocation(rq.getLocation());
             newPharm.setName(rq.getPharmacyName());
-
-                User owner = new User();
+            User owner = userRepo.findByEmail(rq.getEmail());
+            if (owner == null) {
+                owner = new User();
+            } 
                     owner.setEmail(rq.getEmail());
                     owner.setFirstName(rq.getSenderFullName()); 
                         List<Role> roles = new ArrayList<>();
@@ -62,10 +67,12 @@ public class RequestHandlingServiceImpl implements RequestHandlingService {
             newPharm.setAddress(utils.reverseGeocode(rq.getLocation().getX(), rq.getLocation().getY()));
         newPharm = pharmRepo.save(newPharm);
         requestRepo.delete(rq);
+        return true;
     }
     
     @Override
     public void rejectRequest(Long rq){
+        fileService.deleteByName(requestRepo.getById(rq).getLicenseFile().getName());
         requestRepo.delete(requestRepo.getById(rq));
     }
 

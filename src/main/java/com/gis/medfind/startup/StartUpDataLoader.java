@@ -138,6 +138,19 @@ public class StartUpDataLoader implements ApplicationListener<ContextRefreshedEv
             user.setRoles(role);
         if(userRepo.findByEmail(user.getEmail())==null)
             userRepo.save(user);
+
+        //Create Pharmacy Owner 
+        Role customerRole = roleRepo.findByName("USER");
+        user = new User();
+            user.setEmail("segniDessalegn@gmail.com");
+            user.setFirstName("Segni");
+            user.setLastName("Dessalegn");
+            user.setPassword(passwordEncoder.encode("gadisa"));
+            role = new ArrayList<>();
+                role.add(customerRole);
+            user.setRoles(role);
+        if(userRepo.findByEmail(user.getEmail())==null)
+            userRepo.save(user);
     }
 
     @Transactional
@@ -314,7 +327,7 @@ public class StartUpDataLoader implements ApplicationListener<ContextRefreshedEv
                     System.out.println("------->>>"+surround.getName());
                 }else{System.out.println("----------->>>null");}
                 pharm = pharmRepo.save(pharm);
-                pharm.setOwner(userRepo.findByEmail("amhaznif@gmail.com"));
+                pharm.setOwner(userRepo.findByEmail("segniDessalegn@gmail.com"));
                     Server pharmServer = new Server();
                         pharmServer.setDatabaseName("drugstore");
                         pharmServer.setDrugInventory("Table_"+pharm.getId());

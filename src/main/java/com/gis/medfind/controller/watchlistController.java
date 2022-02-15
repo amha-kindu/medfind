@@ -101,6 +101,17 @@ public class watchlistController {
         List<Pharmacy> pharm = searchloc.findPharmaciesByUserLocation(form.getMedicineName(), userLat,
                 userLon);
 
+        
+        User user=currentUser.findLoggedInUser();
+        WatchList watchList = watchlistServ.findWatchListByUserId(user.getId());
+        
+        model.addAttribute("watchlist", watchList.getMedicines());
+
+        if (pharm.isEmpty()) {
+            model.addAttribute("medicineNotFound",true);
+            return "watchList";
+        }
+
         System.out.println(pharm.size());
         System.out.println(form.getMedicineName());
         Map<Integer, String> routes = new HashMap<>();
@@ -120,10 +131,6 @@ public class watchlistController {
         model.addAttribute("user_lat", form.getUserlat());
         model.addAttribute("user_lon", form.getUserlong());
 
-        User user=currentUser.findLoggedInUser();
-        WatchList watchList = watchlistServ.findWatchListByUserId(user.getId());
-        
-        model.addAttribute("watchlist", watchList.getMedicines());
         model.addAttribute("pharmaList", pharm);
         return "watchList";
           

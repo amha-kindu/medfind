@@ -82,14 +82,17 @@ public class RequestController {
 
 
     @PostMapping("/validator/approve")
-    public String approveRequest(@RequestParam String requestId){
-        requestService.acceptRequest(Long.parseLong(requestId));
-        return "validator";
+    public String approveRequest(@RequestParam("id") Long requestId, Model model) {
+        if(!requestService.acceptRequest(requestId)){
+            model.addAttribute("alreadyExist", true);
+            return "validator";
+        }
+        return "redirect:/handle_request";
     }
     @PostMapping("/validator/reject")
-    public String rejectRequest(String requestId){
-        requestService.rejectRequest(Long.parseLong(requestId));
-        return "validator";
+    public String rejectRequest(@RequestParam("id") Long requestId){
+        requestService.rejectRequest(requestId);
+        return "redirect:/handle_request";
     }
 
     @GetMapping(value = "/uploads/license/{filename}", produces = MediaType.APPLICATION_PDF_VALUE)
