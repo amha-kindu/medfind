@@ -12,14 +12,18 @@ import com.gis.medfind.serviceImplem.FileStorageServiceImpl;
 import com.gis.medfind.serviceImplem.RequestHandlingServiceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.Resource;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class RequestController {
@@ -67,7 +71,7 @@ public class RequestController {
         return "validator";
     }
 
-    @PostMapping("validator/get_request")
+    @PostMapping("/validator/get_request")
     public String getRequest(@RequestParam("pharmacyName") String pharmacyName, Model model){
         Request found = requestService.getRequest(pharmacyName);
         model.addAttribute("selected_request", found);
@@ -77,24 +81,28 @@ public class RequestController {
     }
 
 
-    @PostMapping("handle_request/approve")
+    @PostMapping("/validator/approve")
     public String approveRequest(@RequestParam String requestId){
         requestService.acceptRequest(Long.parseLong(requestId));
         return "validator";
     }
-    @PostMapping("handle_request/reject")
+    @PostMapping("/validator/reject")
     public String rejectRequest(String requestId){
         requestService.rejectRequest(Long.parseLong(requestId));
         return "validator";
     }
 
-    // @GetMapping("upload/license")
-    // public String getLicense(Model model, @RequestParam("filename") String filename){
-    //     String url = fileService.getURL(filename);
-    //     model.addAttribute("fileURL",url);
-    //     return "license";
+    @GetMapping(value = "/uploads/license/{filename}", produces = MediaType.APPLICATION_PDF_VALUE)
+    public @ResponseBody byte[] getLicense(Model model, @PathVariable("filename") String filename){
+        Resource res = fileService.getFile(filename);
+        byte[] data = new byte[]{};
+        try{
+            data = res.getInputStream().readAllBytes();
+        }catch(Exception ex){}
 
-    // }
+        return data;
+    }
+    
 
   
 

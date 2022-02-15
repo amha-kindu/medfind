@@ -521,6 +521,7 @@ function showMap(element) {
 		closeButton: true,
 		closeOnClick: false,
 		autoClose: false,
+<<<<<<< HEAD
 		className: "popup-fixed",
 	});
 
@@ -529,6 +530,16 @@ function showMap(element) {
 			.setLatLng(map.getBounds().getSouth())
 			.setContent(instructions)
 			.openOn(map);
+=======
+  		className: 'popup-fixed',
+		  offset:[0, -30]
+	  }).setLatLng(L.latLng(user_lat, user_lon));
+	  
+	
+	L.easyButton('<img style="width:30px;height:30px;" src="directions.png">', function(btn, map){
+		popup.setContent(instructions)
+	  	.openOn(map);
+>>>>>>> 9036883ae2aa43f48c830bcb1906816c96e35374
 	}).addTo(map);
 }
 function closeMap(element) {
