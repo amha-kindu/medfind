@@ -16,4 +16,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
                     "ON u.id = ur.user_id "+
                     "WHERE u.email = :email", nativeQuery = true)
     User findByEmail(@Param("email") String email);
+
+    User findByFirstName(String firstName);
 }

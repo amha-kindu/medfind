@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.util.ArrayList;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -30,11 +31,11 @@ public class WatchList{
     @Column(name = "creation_date")
     private String creationDate;
     
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "fk_owner")
     private User owner;
     
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
         name = "watchlist_medicine", 
         joinColumns = @JoinColumn(
